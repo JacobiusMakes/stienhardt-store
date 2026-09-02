@@ -88,8 +88,9 @@ two clean tools, `search_inventory` and `get_product`, beside the eight open edu
 
 ## Files
 
-- `server.json`: the registry manifest (GitHub namespace, remote streamable-http).
-- `PUBLISH-RUNBOOK.md`: the two-command publish.
+- `server.json`: the registry manifest (GitHub namespace, remote streamable-http). Publish with
+  `mcp-publisher login github` then `mcp-publisher publish` from this folder.
+- `LICENSE`: MIT.
 
 Stienhardt sources certified Lab Grown Diamonds and hand-sets and finishes rings in New York City,
 by appointment. Store: https://stienhardt.com/?utm_source=github&utm_medium=readme&utm_campaign=mcp-store
