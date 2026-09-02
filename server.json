@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.JacobiusMakes/stienhardt-store",
+  "title": "Stienhardt",
+  "description": "Stienhardt (NYC): shop live Lab Grown Diamonds, engagement rings, jewelry. Search, cart, checkout.",
+  "websiteUrl": "https://stienhardt.com/",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stienhard-stones.myshopify.com/api/ucp/mcp"
+    }
+  ]
+}
