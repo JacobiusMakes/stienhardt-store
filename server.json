@@ -4,11 +4,15 @@
   "title": "Stienhardt",
   "description": "Stienhardt (NYC): shop live Lab Grown Diamonds, engagement rings, jewelry. Search, cart, checkout.",
   "websiteUrl": "https://stienhardt.com/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
       "url": "https://stienhard-stones.myshopify.com/api/ucp/mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/JacobiusMakes/stienhardt-store",
+    "source": "github"
+  }
 }
