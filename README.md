@@ -30,6 +30,9 @@ claude mcp add --transport http stienhardt https://diamond-mcp.stienhardt.worker
 npx @modelcontextprotocol/inspector --transport streamable-http --server-url https://stienhard-stones.myshopify.com/api/ucp/mcp
 ```
 
+Note for scripts: Cloudflare returns error 1010 to Python's default `Python-urllib` user agent on
+the hosted helper; set any other `User-Agent` header. curl, Node, and MCP clients are unaffected.
+
 `initialize` and `tools/list` answer anonymously. Every `tools/call` must carry
 `arguments.meta.ucp-agent.profile`, a URL to a UCP platform profile; see the gating table below.
 
